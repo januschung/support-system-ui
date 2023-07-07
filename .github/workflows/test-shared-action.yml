@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: foo
-        uses: januschung/rock-paper-scissors/.github/actions/shared/action.yml@main
+        uses: januschung/rock-paper-scissors/.github/actions/shared@main
         with:
           who-to-greet: 'Mona the Octocat'
           script-to-run: 'bye.sh'
